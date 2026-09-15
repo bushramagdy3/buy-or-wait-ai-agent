@@ -1,21 +1,21 @@
-from balance_simulation import (
+from code.balance_simulation import (
     find_earliest_safe_payment_date,
     round_money,
     simulate_calendar,
 )
-from currency_utils import convert_events_to_home_currency
-from decision_explanation import generate_decision_explanation
-from event_calendar import build_event_calendar
-from event_image_repair import fill_missing_event_fields
-from event_message_updates import apply_message_event_updates
-from event_utils import find_image_path, parse_date, split_list, to_float
-from payment_plans import build_legal_payment_plans
-from plan_evaluator import (
+from code.currency_utils import convert_events_to_home_currency
+from code.decision_explanation import generate_decision_explanation
+from code.event_calendar import build_event_calendar
+from code.event_image_repair import fill_missing_event_fields
+from code.event_message_updates import apply_message_event_updates
+from code.event_utils import find_image_path, parse_date, split_list, to_float
+from code.payment_plans import build_legal_payment_plans
+from code.plan_evaluator import (
     choose_highest_ranking_plan,
     find_safe_payment_plans,
     find_safe_payment_plans_with_change_sets,
 )
-from spending_changes import generate_change_sets
+from code.spending_changes import generate_change_sets
 
 
 def resolve_request(request, data):

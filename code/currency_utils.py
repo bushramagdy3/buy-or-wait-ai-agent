@@ -1,4 +1,4 @@
-from event_utils import event_date_for, to_float
+from code.event_utils import event_date_for, to_float
 
 
 def convert_events_to_home_currency(events, home_currency, exchange_rates):

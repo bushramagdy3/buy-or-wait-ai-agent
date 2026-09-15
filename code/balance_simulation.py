@@ -1,4 +1,4 @@
-from event_utils import to_float
+from code.event_utils import to_float
 
 
 MONEY_EPSILON = 0.005

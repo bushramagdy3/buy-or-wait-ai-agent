@@ -1,5 +1,5 @@
-from balance_simulation import simulate_calendar
-from event_utils import parse_date, to_float
+from code.balance_simulation import simulate_calendar
+from code.event_utils import parse_date, to_float
 
 
 def find_safe_payment_plans(

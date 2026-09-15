@@ -1,6 +1,6 @@
 from itertools import combinations
 
-from event_utils import to_float
+from code.event_utils import to_float
 
 
 MAX_CHANGES = 3

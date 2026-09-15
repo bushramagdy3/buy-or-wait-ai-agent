@@ -1,7 +1,7 @@
 from calendar import monthrange
 from datetime import timedelta
 
-from event_utils import event_date_for, safe_amount
+from code.event_utils import event_date_for, safe_amount
 
 
 ALLOWED_DAY_GAPS = {5, 7, 10, 14, 21}

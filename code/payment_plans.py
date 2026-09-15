@@ -1,6 +1,6 @@
 from datetime import timedelta
 
-from event_utils import parse_date, to_float
+from code.event_utils import parse_date, to_float
 
 
 def build_legal_payment_plans(

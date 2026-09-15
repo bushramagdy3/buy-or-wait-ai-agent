@@ -1,6 +1,6 @@
 import time
 
-from usage_tracker import record_llm_usage
+from code.usage_tracker import record_llm_usage
 
 
 def invoke_with_rate_limit_retry(

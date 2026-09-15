@@ -11,9 +11,9 @@ DATASET_DIR = REPO_ROOT / "dataset"
 if str(CODE_DIR) not in sys.path:
     sys.path.insert(0, str(CODE_DIR))
 
-from data_loader import load_data
-from image_preprocessor import preprocess_images
-from resolver import resolve_request
+from code.data_loader import load_data
+from code.image_preprocessor import preprocess_images
+from code.resolver import resolve_request
 
 
 OUTPUT_COLUMNS = [
