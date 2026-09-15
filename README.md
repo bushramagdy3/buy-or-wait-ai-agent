@@ -10,8 +10,6 @@ The system decides whether a requested purchase is financially safe **now**, sho
 * **Egypt Rank:** #2
 * **Event:** HackerRank Orchestrate — September 2026
 
-\---
-
 ## The Challenge
 
 A purchase decision cannot be made from the user’s current balance alone.
