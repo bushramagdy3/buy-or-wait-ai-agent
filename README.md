@@ -7,7 +7,7 @@ The system decides whether a requested purchase is financially safe **now**, sho
 ## 🏆 Result
 
 * **Global Rank:** #496 / 3,062
-* **Egypt Rank:** #2 among participants listed as Egypt on the HackerRank leaderboard
+* **Egypt Rank:** #2 among Egyptian participants on the HackerRank leaderboard
 * **Event:** HackerRank Orchestrate — September 2026
 
 \---
